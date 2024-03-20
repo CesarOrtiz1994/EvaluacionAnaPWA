@@ -1,0 +1,49 @@
+# Logs
+post-vite/logs
+post-vite/*.log
+post-vite/npm-debug.log*
+post-vite/yarn-debug.log*
+post-vite/yarn-error.log*
+post-vite/pnpm-debug.log*
+post-vite/lerna-debug.log*
+
+post-vite/node_modules
+post-vite/dist
+post-vite/dist-ssr
+post-vite/*.local
+
+# Editor directories and files
+post-vite/.vscode/*
+post-vite/!.vscode/extensions.json
+post-vite/.idea
+post-vite/.DS_Store
+post-vite/*.suo
+post-vite/*.ntvs*
+post-vite/*.njsproj
+post-vite/*.sln
+post-vite/*.sw?
+
+server-express/.vercel
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+server-express/node_modules
+server-express/.pnp
+server-express/.pnp.js
+
+# testing
+server-express/coverage
+
+# production
+server-express/build
+
+# misc
+server-express/.DS_Store
+server-express/.env.local
+server-express/.env.development.local
+server-express/.env.test.local
+server-express/.env.production.local
+
+server-express/npm-debug.log*
+server-express/yarn-debug.log*
+server-express/yarn-error.log*
